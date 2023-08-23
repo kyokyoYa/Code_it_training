@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#myNumber {
+  font-size: 100px;
+}
+
+.btnBox {
+  display: flex;
+  gap: 10px;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+.orange {
+  background-color: #ffa500;
+}
+.yellow {
+  background-color: #ffff00;
+}
+.green {
+  background-color: #008000;
+}
+.blue {
+  background-color: #0000ff;
+}
+.indigo {
+  background-color: #4b0082;
+}
+.purple {
+  background-color: #800080;
+}
+.black {
+  background-color: #000000;
+}
