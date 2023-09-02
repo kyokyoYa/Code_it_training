@@ -5,16 +5,18 @@ const colors = document.querySelectorAll(".color-btn");
 
 let myNumber = myNumberTag.textContent;
 
-decreaseBtn.onclick = function () {
-  if (myNumber >= 1) {
+decreaseBtn.onclick = () => {
+  if (myNumber > 0) {
     myNumber--;
     myNumberTag.textContent = myNumber;
   }
 };
 
-increaseBtn.onclick = function () {
-  myNumber++;
-  myNumberTag.textContent = myNumber;
+increaseBtn.onclick = () => {
+  if (myNumber < 10) {
+    myNumber++;
+    myNumberTag.textContent = myNumber;
+  }
 };
 
 const colorBtns = document.getElementsByClassName("color-btn");
